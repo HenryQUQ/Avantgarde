@@ -32,13 +32,15 @@ Then open <http://localhost:4173>.
 
 1. Push this repository to GitHub (`main` branch).
 2. On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, then choose **`main`** and **`/ (root)`** and save.
-3. After a minute the site is live at <https://henryquq.github.io/Avantgarde/>.
+3. After a minute the site is live at <https://chenyuanqu.com/Avantgarde/>. The account's user site uses the custom domain `chenyuanqu.com`, so GitHub serves this project under it, and `henryquq.github.io/Avantgarde/` redirects there.
 
-All asset paths are relative, so the site works both at that address and on a custom domain.
+GitHub Pages on a private repository needs a paid GitHub plan; on GitHub Free the repository must be public.
 
-### Using a custom domain
+All asset paths are relative, so the site works at any address.
 
-Add a `CNAME` file containing the domain (for example `avantgardeclub.co.uk`), point the domain's DNS at GitHub Pages, and update the four absolute URLs near the top of `index.html` — `canonical`, `og:url`, `og:image` and the `url`/`logo` entries in the JSON-LD block — so that link previews on LinkedIn and elsewhere use the new address.
+### Giving the club its own domain
+
+Add a `CNAME` file containing the domain (for example `avantgardeclub.co.uk`), point the domain's DNS at GitHub Pages, then update the absolute URLs near the top of `index.html` — `canonical`, `og:url`, `og:image` and the `url`/`logo` entries in the JSON-LD block — so link previews on LinkedIn and elsewhere use the new address. On its own domain the site sits at the root, which `404.html` already handles.
 
 ## Editing content
 

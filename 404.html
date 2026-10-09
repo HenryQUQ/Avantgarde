@@ -98,10 +98,10 @@
     <a href="/" data-home>Back to The Avant-garde Club</a>
   </main>
   <script>
-    // On a GitHub project site the home page lives under /<repository>/.
+    // The site is a GitHub project site, so home lives under /Avantgarde/
+    // (chenyuanqu.com/Avantgarde/); with a domain of its own it is the root.
     (function () {
-      var parts = location.pathname.split('/').filter(Boolean);
-      var base = /\.github\.io$/.test(location.hostname) && parts.length ? '/' + parts[0] + '/' : '/';
+      var base = /^\/Avantgarde(\/|$)/.test(location.pathname) ? '/Avantgarde/' : '/';
       document.querySelector('[data-home]').href = base;
       var icon = document.createElement('link');
       icon.rel = 'icon';
