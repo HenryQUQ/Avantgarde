@@ -1,0 +1,22 @@
+{
+  "name": "The Avant-garde Club",
+  "base_url": "https://chenyuanqu.com/Avantgarde/",
+  "team": [
+    {"name": "Charlie Ji", "role": "Founder", "initials": "CJ", "linkedin": "https://www.linkedin.com/in/mingyuanji/"},
+    {"name": "Koit Chan", "role": "Founding Member", "initials": "KC", "linkedin": "https://www.linkedin.com/in/koit-chan-9b6966b9/"},
+    {"name": "Yifei Feng", "role": "Founding Member", "initials": "YF", "linkedin": "https://www.linkedin.com/in/yifeifeng1999/"},
+    {"name": "Leo Jiang", "role": "Founding Member", "initials": "LJ", "linkedin": "https://www.linkedin.com/in/zubiao-jiang-430140222/"},
+    {"name": "Joyce Wang", "role": "Founding Member", "initials": "JW", "linkedin": "https://www.linkedin.com/in/joyce-wang-67436b13b/"},
+    {"name": "Henry Qu", "role": "Founding Member", "initials": "HQ", "linkedin": "https://www.linkedin.com/in/henry-qu-436621195/"}
+  ],
+  "principles": [
+    {"slug": "ethical-conduct", "title": "Ethical conduct", "description": "Act honestly, be accurate about qualifications and interests, and never pressure anyone for business, money or favours."},
+    {"slug": "equality-and-respect", "title": "Equality and respect", "description": "Treat everyone fairly. No harassment, no discrimination, and no retaliation against anyone who raises a concern."},
+    {"slug": "intellectual-property", "title": "Intellectual property", "description": "Rights stay with their owner. Share only what you are authorised to, credit creators and agree ownership before joint work."},
+    {"slug": "confidentiality", "title": "Confidentiality", "description": "Private discussions, roadmaps and member details stay private, and never go into public AI tools without permission."},
+    {"slug": "conflicts-of-interest", "title": "Conflicts of interest", "description": "Declare relevant interests in writing, and step back from any decision they could affect."},
+    {"slug": "independent-decisions", "title": "Independent decisions", "description": "No price fixing, bid rigging or no-poach agreements, and no exchange of competitively sensitive information."},
+    {"slug": "events-and-representation", "title": "Events and representation", "description": "Respect venues, organisers and each other's choices, and use the Club's name and logo accurately."},
+    {"slug": "fair-resolution", "title": "Fair resolution", "description": "Concerns are reviewed by someone without a conflict, with the right to respond and to appeal."}
+  ]
+}
